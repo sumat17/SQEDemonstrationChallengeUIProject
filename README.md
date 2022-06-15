@@ -46,6 +46,14 @@ We will be evaluating
 5. When complete please check your code into your public git repo
 
 #### Test Cases
-
- 1.  
+1. PositiveTestCases
+2. NegativeTestCases
+3. ResetOrderTest
+#### Issues Observed
+1. Quantity box accepting string
+2. Ability to insert decimal numbers and negative numbers
+3. Order is done when no pizza is selected
+4. Both 2 toppings are always enabled to be selected(even for pizza without toppings)
+5. Toppings1 and Topping2 do not reset
+6. Able to check/select both payment radio buttons
 

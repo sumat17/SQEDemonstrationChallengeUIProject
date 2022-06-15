@@ -1,9 +1,9 @@
 package com.sample.test.demo.tests;
 
+import com.sample.test.demo.tests.base.BaseTest;
 import org.testng.annotations.Test;
-import com.sample.test.demo.TestBase;
 
-public class DemoTest extends TestBase {
+public class DemoTest extends BaseTest {
 
     @Test
     public void demoTest() {
