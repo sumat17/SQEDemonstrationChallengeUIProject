@@ -1,14 +1,19 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="DemoProject" verbose="10">
-	<test name="Tests">
-		<!-- Enter group name to execute specific set of tests -->
-		<groups>
-			
-		</groups>
-		<!-- List individual packages to execute below -->
-		<packages>
-			<package name="com.sample.test.demo.tests.*" />
-		</packages>
-	</test>
+    <test name="Tests">
+        <!-- Enter group name to execute specific set of tests -->
+        <groups>
+            <run>
+                <include name="smoke_test"/>
+            </run>
+        </groups>
+        <!-- List individual packages to execute below -->
+
+        <classes>
+            <class name="com.sample.test.demo.tests.DemoTest"/>
+            <class name="com.sample.test.demo.tests.page.SingleOrderPageNegativeTest"/>
+            <class name="com.sample.test.demo.tests.page.SingleOrderPageTest"/>
+        </classes>
+    </test>
 </suite>
 
